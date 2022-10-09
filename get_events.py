@@ -57,7 +57,8 @@ def get_dnac_jwt_token(dnac_auth):
 
 def get_event_id_list(dnac_jwt_token):
     """
-    This function will get all the event ids and details 
+    This function will get all the event ids and details
+    param limit within the url can be increased in case there is more events within the list 
     :param dnac_jwt_token: Cisco DNA Center token
     :return: list of events 
     """
