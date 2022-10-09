@@ -25,7 +25,13 @@ Run the script using the command:
 
 $ python get_events.py
 
+**_NOTE_** Make sure to export the os env variables with DNAC base url, usertname and password before run the script.
+
+
 Example:
+export DNA_CENTER_BASE_URL=https://{dnac_Ipaddress_or_hostname}
+export DNA_CENTER_USERNAME={usernamne}
+export DNA_CENTER_PASSWORD={password}
 python get_events.py
 
 **Sample Output**
