@@ -29,10 +29,10 @@ $ python get_events.py
 
 
 Example:
-export DNA_CENTER_BASE_URL=https://{dnac_Ipaddress_or_hostname}
-export DNA_CENTER_USERNAME={usernamne}
-export DNA_CENTER_PASSWORD={password}
-python get_events.py
+$ export DNA_CENTER_BASE_URL=https://{dnac_Ipaddress_or_hostname}
+$ export DNA_CENTER_USERNAME={usernamne}
+$ export DNA_CENTER_PASSWORD={password}
+$ python get_events.py
 
 **Sample Output**
 
