@@ -21,7 +21,7 @@ This sample script will get a list of events from DNA Center using the API:
  - retrieve the list of events Ids and details
  - write down the output to a excel sheet file
  
-Run the script using the command:
+Run the get events script using the command:
 
 $ python get_events.py
 
@@ -49,6 +49,26 @@ Getting Event List
 Writing excel sheet
 
 Done!
+
+Run the create_event_subscription script using the command:
+
+$ python create_event_subscription.py
+
+Example:
+
+$ python create_event_subscription.py "Name for the Event Subscription" "Description for the Event Subscription" "63613c37-9513-44d5-8476-54a953172c08" Events_list.xls
+
+**Sample Output**
+
+Run the get_event_subscription_details script using the command:
+
+$ python get_event_subscription_details.py
+
+Example:
+
+$ python get_event_subscription_details.py "Name for the Event Subscription"
+
+**Sample Output**
 
 **License**
 
